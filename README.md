@@ -18,6 +18,8 @@ $ npm install passport-twitter-oauth2.0
 
 ## Usage
 
+Please not that the
+
 ```javascript
 passport.use(
     new TwitterStrategy(
@@ -25,7 +27,9 @@ passport.use(
             clientID: TWITTER_CLIENT_ID,
             clientSecret: TWITTER_CLIENT_SECRET,
             callbackURL: YOUR_CALLBACK_URL,
-            clientType: "public", // chose "public" or "private"
+            clientType: "public", // "public" or "private"
+            pkce: true, // required,
+            state: true, // required
         },
         function (accessToken, refreshToken, profile, done) {
             User.findOrCreate({ githubId: profile.id }, function (err, user) {
