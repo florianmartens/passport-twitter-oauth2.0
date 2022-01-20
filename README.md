@@ -18,7 +18,7 @@ $ npm install passport-twitter-oauth2.0
 
 ## Usage
 
-Please not that the
+Please note that Twitter requires clients to use PKCE (RFC 7636) when authenticating with OAuth 2.0. When using PKCE with Passport, clients are required to enable `sessions`. Furthermore, the options object passed to the strategy has to specify `pkce=true` and `state=true`.
 
 ```javascript
 passport.use(
