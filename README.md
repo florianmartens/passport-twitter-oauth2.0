@@ -1,11 +1,10 @@
-# Passport-Twitter2.0
+# Passport-Twitter2.0 with PKCE
 
-Twitter API v2 is ready for prime time! Twitter recommends that the majority of developers start to think about migrating to v2 of the API.
+Twitter recommends that the majority of developers start to think about migrating to v2 of the API.
 
-[Passport](http://passportjs.org/) strategy for authenticating with [Twitter](https://twitter.com/)
+This package is a [Passport](http://passportjs.org/) strategy for authenticating with [Twitter](https://twitter.com/)
 using the OAuth 2.0 API.
 
-This module lets you authenticate using Twitter OAuth 2.0 in your Node.js applications.
 By plugging into Passport, Twitter authentication can be easily and
 unobtrusively integrated into any application or framework that supports
 [Connect](http://www.senchalabs.org/connect/)-style middleware, including
