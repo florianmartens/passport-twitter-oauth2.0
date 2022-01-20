@@ -1,6 +1,6 @@
 {
     "name": "passport-twitter-oauth2.0",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Twitter oauth 2.0 strategy for twitter",
     "author": {
         "name": "Florian Martens",
