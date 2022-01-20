@@ -1,0 +1,30 @@
+{
+    "name": "passport-twitter-oauth2",
+    "version": "1.0.0",
+    "description": "Twitter oauth 2.0 strategy for twitter",
+    "author": {
+        "name": "Florian Martens",
+        "email": "Florian_mar@web.de"
+    },
+    "keywords": [
+        "passport",
+        "twitter",
+        "auth",
+        "authn",
+        "authentication",
+        "identity"
+    ],
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/florianmartens/passport-twitter.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "base64url": "^3.0.1",
+        "passport-oauth2": "^1.6.1"
+    }
+}
