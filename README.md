@@ -67,7 +67,7 @@ app.get(
 ```
 
 ## Credits
-
+-   [Api-Fiddle](https://api-fiddle.com)
 -   [Jared Hanson](http://github.com/jaredhanson)
 
 ## License
